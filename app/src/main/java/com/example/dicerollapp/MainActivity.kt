@@ -1,5 +1,5 @@
 package com.example.dicerollapp
-
+// Created by İbrahim Duman on 19.03.2023.
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

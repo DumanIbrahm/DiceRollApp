@@ -10,7 +10,6 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
     private lateinit var resultImg1 : ImageView
     private lateinit var resultImg2 : ImageView
-
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,11 +23,7 @@ class MainActivity : AppCompatActivity() {
         rollBtn.setOnClickListener{
             diceButton()
         }
-
     }
-
-
-
     fun diceButton(){
         val dice1Int = Random().nextInt(6) + 1
         val dice2Int = Random().nextInt(6) + 1
